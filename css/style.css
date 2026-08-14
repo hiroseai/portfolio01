@@ -138,7 +138,7 @@ body {
     line-height: 1.5;
 }
 
-body.is-overflow {
+.js-body.is-overflow {
     overflow: hidden;
     height: 100%;
 }
@@ -608,7 +608,7 @@ layout > header
     }
 }
 
-.l-header__hamburger-menu.js-header__hamburger-menu-active {
+.js-header__hamburger-menu.js-header__hamburger-menu-active {
     opacity: 1;
     visibility: visible;
 }
@@ -751,10 +751,6 @@ layout > header
 
 .js-header.transform {
     background-color: var(--color-button-background);
-}
-
-.js-body.is-overflow {
-    overflow: hidden;
 }
 
 /* layout > side-bar
