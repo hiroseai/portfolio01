@@ -6,6 +6,7 @@ foundation > reset
 html {
     color: #000;
     background: #fff;
+    font-size: 16px;
 }
 
 body,
